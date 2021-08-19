@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.histomap;
 
 import org.junit.Test;
 

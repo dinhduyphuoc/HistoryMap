@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.histomap;
 
 import androidx.appcompat.app.AppCompatActivity;
 
