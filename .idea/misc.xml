@@ -3,8 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Study/HistoMap/app/src/main/res/layout/activity_main.xml" value="0.20555555555555555" />
-        <entry key="..\:/Study/HistoryMap/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Study/History/app/src/main/res/drawable/drawable_search_view_primary.xml" value="0.5661458333333333" />
+        <entry key="..\:/Study/History/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.34375" />
+        <entry key="..\:/Study/History/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.34375" />
+        <entry key="..\:/Study/History/app/src/main/res/drawable/ic_drawable_wave1.xml" value="0.5661458333333333" />
+        <entry key="..\:/Study/History/app/src/main/res/layout/activity_main.xml" value="0.26545086119554206" />
+        <entry key="..\:/Study/History/app/src/main/res/layout/activity_main_menu.xml" value="0.2672239108409321" />
+        <entry key="..\:/Study/History/app/src/main/res/layout/activity_menu.xml" value="0.2341485507246377" />
+        <entry key="..\:/Study/History/app/src/main/res/layout/activity_profile.xml" value="0.32760416666666664" />
+        <entry key="..\:/Study/History/app/src/main/res/layout/activity_search.xml" value="0.2341485507246377" />
+        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_dashboard.xml" value="0.2672239108409321" />
+        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_home.xml" value="0.2672239108409321" />
+        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_notifications.xml" value="0.2672239108409321" />
+        <entry key="..\:/Study/History/app/src/main/res/menu/bottom_nav_menu.xml" value="0.328125" />
+        <entry key="..\:/Study/History/app/src/main/res/menu/menu_navigation.xml" value="0.32760416666666664" />
+        <entry key="..\:/Study/History/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.34375" />
+        <entry key="..\:/Study/History/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.34375" />
       </map>
     </option>
   </component>
