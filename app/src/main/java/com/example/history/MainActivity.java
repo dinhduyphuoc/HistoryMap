@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Hide action bar
+//        getSupportActionBar().hide();
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         progressBar = findViewById(R.id.progress_bar);
@@ -30,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void progressAnimation(){
         ProgressBarAnimation animate = new ProgressBarAnimation(this, progressBar ,textView, 0f,100f);
-        animate.setDuration(8000);
+        animate.setDuration(2000);
         progressBar.setAnimation(animate);
     }
 }
