@@ -1,31 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DisplayEventsActivity"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_back"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="22dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#cd7f32"/>
+
+        </androidx.cardview.widget.CardView>
+
         <TextView
-            android:id="@+id/displayEvent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Display User's Selected Event(s) Here"
-            android:textSize="15sp"
-            android:layout_margin="10dp"
-            android:textStyle="bold"/>
+            android:text="Chiến Dịch Điện Biên Phủ"
+            android:textSize="17sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"/>
 
-        <com.google.android.gms.maps.MapView
-            android:id="@+id/mapView"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày 7 Tháng 5 năm 1954"
+            android:textSize="14sp"
+            android:textAllCaps="true"
+            android:paddingLeft="10dp"
+            android:paddingBottom="15dp"/>
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/bottom"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="wrap_content">
 
-    </LinearLayout>
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottom_navigation_event"
+                app:menu="@menu/menu_event_display_tab"
+                app:itemIconTint="@color/black"
+                app:itemTextColor="@color/black">
 
-</RelativeLayout>
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            app:cardCornerRadius="22dp">-->
+
+<!--            <com.google.android.gms.maps.MapView-->
+<!--                android:id="@+id/mapView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp" />-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Event Year"-->
+<!--            android:textSize="15sp"/>-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tổng Quan"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginBottom="10dp"/>-->
+
+
+<!--        <FrameLayout-->
+<!--            android:id="@+id/fragmentEventsContainer"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginBottom="100dp"/>-->
+
+<!--    </LinearLayout>-->
+</ScrollView>
