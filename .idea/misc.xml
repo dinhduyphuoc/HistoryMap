@@ -1,42 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Study/History/app/src/main/res/drawable/drawable_rounded.xml" value="0.4981481481481482" />
-        <entry key="..\:/Study/History/app/src/main/res/drawable/drawable_search_view_primary.xml" value="0.5661458333333333" />
-        <entry key="..\:/Study/History/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.34375" />
-        <entry key="..\:/Study/History/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.34375" />
-        <entry key="..\:/Study/History/app/src/main/res/drawable/ic_drawable_wave1.xml" value="0.5661458333333333" />
-        <entry key="..\:/Study/History/app/src/main/res/drawable/icon_home.xml" value="0.3380208333333333" />
-        <entry key="..\:/Study/History/app/src/main/res/drawable/icon_person.xml" value="0.3380208333333333" />
-        <entry key="..\:/Study/History/app/src/main/res/drawable/icon_search.xml" value="0.3416666666666667" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/activity_display_events.xml" value="0.34542410714285715" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/activity_main.xml" value="0.26545086119554206" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/activity_main_menu.xml" value="0.2672239108409321" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/activity_map.xml" value="0.31023550724637683" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/activity_menu.xml" value="0.2341485507246377" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/activity_profile.xml" value="0.32760416666666664" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/activity_search.xml" value="0.2341485507246377" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/app_bar_event.xml" value="0.3255208333333333" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_characters.xml" value="0.55" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_dashboard.xml" value="0.2672239108409321" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_details.xml" value="0.55" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_events.xml" value="0.5359375" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_home.xml" value="0.2672239108409321" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_map_info_display.xml" value="0.247451343836886" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_notifications.xml" value="0.2672239108409321" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_profile.xml" value="0.321875" />
-        <entry key="..\:/Study/History/app/src/main/res/layout/fragment_search.xml" value="0.23283582089552238" />
-        <entry key="..\:/Study/History/app/src/main/res/menu/bottom_nav_menu.xml" value="0.328125" />
-        <entry key="..\:/Study/History/app/src/main/res/menu/menu_event_display_tab.xml" value="0.5194444444444445" />
-        <entry key="..\:/Study/History/app/src/main/res/menu/menu_main.xml" value="0.3255208333333333" />
-        <entry key="..\:/Study/History/app/src/main/res/menu/menu_navigation.xml" value="0.32760416666666664" />
-        <entry key="..\:/Study/History/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.34375" />
-        <entry key="..\:/Study/History/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.34375" />
-      </map>
-    </option>
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
